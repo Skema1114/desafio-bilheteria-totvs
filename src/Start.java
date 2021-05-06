@@ -29,7 +29,7 @@ public class Start {
 		 */
 		for (int i = 0; i < rowSize; i++) {
 	    	try {
-	    		System.out.print("Informe o dinheiro dado pela " + (i+1) + "º pessoa [25, 50 ou 100]: ");
+	    		System.out.print("Informe o dinheiro dado pela " + (i + 1) + "º pessoa [25, 50 ou 100]: ");
 	    		money.add(scanner.nextInt());
 	    		
 	    	} catch(InputMismatchException error) {
