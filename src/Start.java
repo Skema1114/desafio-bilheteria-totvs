@@ -33,7 +33,7 @@ public class Start {
 	    		money.add(scanner.nextInt());
 	    		
 	    	} catch(InputMismatchException error) {
-	    		System.out.println("Voc� n�o informou um n�mero v�lido");
+	    		System.out.println("Você não informou um número válido");
 	    	}
 	    }
 
